@@ -72,3 +72,40 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+*/ios/build/
+/ios/Pods/
+/ios/DerivedData/
+
+# Build Android
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/app/.cxx/
+/android/local.properties # Configuration locale du SDK Android
+
+# Secrets et fichiers locaux
+.env
+.env.*.local
+.expo/
+# Clés de signature Android
+*.jks
+*.keystore
+
+Thumbs.db
+
+.bundle/
+npm-debug.log*
+yarn-error.log
+
+# Build Android
+android/build/
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+
+# Build iOS
+ios/build/
+ios/Pods/
+ios/DerivedData/
